@@ -221,7 +221,7 @@ function copyLinkToClipboard() {
         
         // Redirect to WhatsApp chat
         const whatsappMessage = encodeURIComponent(
-            `Check out this amazing Biology Quiz: ${quizLink}`
+            `Check out this amazing Biology Quiz:https://biology-cbt.vercel.app/`
         );
         window.location.href = `https://wa.me/?text=${whatsappMessage}`;
     }).catch(err => {
